@@ -1,0 +1,15 @@
+2025-10-05 17:48:11,644 | INFO | model_api | request_start | request_id=69e3fd83-cfa9-4577-93ae-cd0d038d4e1d | method=GET | path=/ | client=127.0.0.1
+2025-10-05 17:48:11,646 | INFO | model_api | request_end | request_id=69e3fd83-cfa9-4577-93ae-cd0d038d4e1d | status=404 | duration_ms=2.49
+2025-10-05 17:48:23,150 | INFO | model_api | request_start | request_id=6a834b6d-c4b8-4ba4-b6f3-f6aa24846a9c | method=GET | path=/docs | client=127.0.0.1
+2025-10-05 17:48:23,154 | INFO | model_api | request_end | request_id=6a834b6d-c4b8-4ba4-b6f3-f6aa24846a9c | status=200 | duration_ms=3.56
+2025-10-05 17:48:23,527 | INFO | model_api | request_start | request_id=a55e86df-7e63-437a-9ea3-8522f8cff796 | method=GET | path=/openapi.json | client=127.0.0.1
+2025-10-05 17:48:23,532 | INFO | model_api | request_end | request_id=a55e86df-7e63-437a-9ea3-8522f8cff796 | status=200 | duration_ms=4.60
+2025-10-05 17:48:42,098 | INFO | model_api | request_start | request_id=2383d184-c200-4570-9d2f-12e0c031d44e | method=GET | path=/health | client=127.0.0.1
+2025-10-05 17:48:42,100 | INFO | model_api | request_end | request_id=2383d184-c200-4570-9d2f-12e0c031d44e | status=200 | duration_ms=3.20
+2025-10-05 17:48:49,576 | INFO | model_api | request_start | request_id=c36ce426-961e-48b4-b6f8-e3c4d172579a | method=GET | path=/health | client=127.0.0.1
+2025-10-05 17:48:49,577 | INFO | model_api | request_end | request_id=c36ce426-961e-48b4-b6f8-e3c4d172579a | status=200 | duration_ms=1.36
+2025-10-05 17:48:51,271 | INFO | model_api | request_start | request_id=dd89b222-3779-49e9-9418-ec162ba790ac | method=GET | path=/health | client=127.0.0.1
+2025-10-05 17:48:51,273 | INFO | model_api | request_end | request_id=dd89b222-3779-49e9-9418-ec162ba790ac | status=200 | duration_ms=1.80
+2025-10-05 17:49:38,936 | INFO | model_api | request_start | request_id=0c600560-cf6e-4ab1-8e2f-a1ed21ed9139 | method=POST | path=/predict/ | client=127.0.0.1
+2025-10-05 17:49:38,938 | INFO | model_api | inference | model=loan-default-model | version=1.0.0 | prediction=1 | latency_ms=0.60
+2025-10-05 17:49:38,939 | INFO | model_api | request_end | request_id=0c600560-cf6e-4ab1-8e2f-a1ed21ed9139 | status=200 | duration_ms=3.45
